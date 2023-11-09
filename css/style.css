@@ -1,26 +1,9 @@
 body {
-  background: url("/images/bkg.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
   opacity: 0.8;
   background-size: cover;
-}
-.post {
-  margin-top: 60px;
-  margin-bottom: 60px;
-  padding: 25px;
-  -webkit-box-shadow: 0 0 5px rgba(202,203,203,0.5);
-  -moz-box-shadow: 0 0 5px rgba(202,203,204,0.5);
-}
-.site-meta {
-  background: $blue;
-}
-.brand {
-  color: #4dfc23;
-}
-.site-subtitle {
-  color: #4dfc23;
 }
 .post-block.page {
   margin-top: 40px;
@@ -147,4 +130,8 @@ code {
   color: #88ff0d;
   border-radius: 100%;
   background-color: rgba(0,0,0,0.75);
+}
+#busuanzi_value_site_pv,
+#busuanzi_value_site_uv {
+  color: #00bfff;
 }
